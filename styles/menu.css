@@ -1,0 +1,58 @@
+/*menu główne*/
+ol
+{
+list-style-type: none;
+background-color: #fff;
+font-size: 20;
+height:4.5em;
+font-family: basic;
+line-height: 4.5em;
+opacity: 0.93;
+text-align:center;
+left: 50%;
+width: 100%;
+margin: 0px;
+padding: 0px;
+z-index: 10;
+margin-top: 0;
+}
+
+/*każdy element menu głównego*/
+ol > li
+{
+float: right;
+height: 4.5em;
+background-color:#fff;
+width:140px;
+margin-riight:1px;
+}
+
+/*pierwszy element menu głównego - logo*/
+ol > li:first-child
+{
+float: left;
+margin-left: 30px;
+height: 100%;
+margin-right: 10px;
+}
+
+/*linki w menu głównym*/
+ol > li > a
+{
+text-decoration: none;
+color: #BE8700;
+text-decoration: bold;
+}
+
+
+/*linki pod kursorem w menu*/
+ol > li > a:hover
+{
+color: #000000;
+}
+
+/*div - bufor przesuwa treść strony żeby pasek nawigacyjny jej nie zasłaniał*/
+.bufor
+{
+height: 92px;
+}

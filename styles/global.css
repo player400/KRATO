@@ -1,0 +1,50 @@
+
+/*import czcionki lemon milk regular*/
+@font-face { font-family: basic; src: url(../fonts/LEMONMILK-Regular.ttf);  }
+@font-face { font-family: basic; src: url(../fonts/LEMONMILK-Regular.eot);  }
+@font-face { font-family: basic; src: url(../fonts/LEMONMILK-Regular.woff);  }
+@font-face { font-family: basic; src: url(../fonts/LEMONMILK-Regular.woff2);  }
+
+
+/*ogólny wygląd linków*/
+a
+{
+text-decoration: none;
+color: #4B8CB0;
+}
+
+/*ogólny wygląd linków pod kursorem*/
+a:hover
+{
+color: 000;
+}
+
+
+/*podstawowy div tekstowy*/
+.text
+{
+padding: 30px;
+}
+
+/*div na menu*/
+.fajnydiv
+{
+display: block;
+position: fixed;
+float: left;
+width: 100%;
+z-index: 10;
+}
+
+body
+{
+margin: 0;
+padding: none;
+font-family: Calibri;
+}
+
+.copyright
+{
+font-size:0.7em;
+height:1%;
+}

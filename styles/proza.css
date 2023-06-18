@@ -1,0 +1,55 @@
+/*białe tło na głównej*/
+.white
+{
+background-color: #fff;
+opacity: 0.85;
+width:50%;
+color:#BE8700;
+font-size: 15px;
+}
+
+/*żółte tło na głównej*/
+.ylw
+{
+background-color: #BE8700;
+opacity: 0.95;
+width: 50%;
+color: white;
+margin-left: 50%;
+font-size: 24px;
+z-index: -5;
+}
+
+/*zdjęcie 1 na głównej*/
+.base
+{
+width: 100%;
+background-image: url(../img/construction.jpg);
+height: auto;
+ background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+}
+
+/*zdjęcie 2 na głównej*/
+.base2
+{
+width: 100%;
+background-image: url(../img/paper.jpg);
+height: auto;
+ background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+}
+
+/*zdjęcie w kontaktach*/
+.base3
+{
+width: 100%;
+background-image: url(../img/contact.jpg);
+height: auto;
+ background-repeat: no-repeat;
+  background-size: 100% 100%;
+  -moz-background-size: 100% 100%;
+}
+

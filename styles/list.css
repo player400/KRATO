@@ -1,0 +1,56 @@
+/*żółte tło dla elementów listy (realizacje, oferta)*/
+.listylw
+{
+font-size: 17px;
+background: -webkit-linear-gradient(rgba(190, 135, 0,0.9) 50%,rgba(190, 135, 0,0) 100%);
+background:    -moz-linear-gradient(rgba(190, 135, 0,0.9) 50%,rgba(190, 135, 0,0) 100%);
+background:     -ms-linear-gradient(rgba(190, 135, 0,0.9) 50%,rgba(190, 135, 0,0) 100%);
+background:      -o-linear-gradient(rgba(190, 135, 0,0.9) 50%,rgba(190, 135, 0,0) 100%);
+background:         linear-gradient(rgba(190, 135, 0,0.9) 50%,rgba(190, 135, 0,0) 100%);
+color: #fff;
+height: 100%;
+margin: 0;
+width: 100%;
+}
+
+/*białe tło dla elementów listy (realizacje, oferta)*/
+.listwht
+{
+font-size: 17px;
+background: -webkit-linear-gradient(rgba(255, 255, 255,0.8) 50%,rgba(190, 135, 0,0) 100%);
+background:    -moz-linear-gradient(rgba(255, 255, 255,0.8) 50%,rgba(190, 135, 0,0) 100%);
+background:     -ms-linear-gradient(rgba(255, 255, 255,0.8) 50%,rgba(190, 135, 0,0) 100%);
+background:      -o-linear-gradient(rgba(255, 255, 255,0.8) 50%,rgba(190, 135, 0,0) 100%);
+background:         linear-gradient(rgba(255, 255, 255,0.8) 50%,rgba(190, 135, 0,0) 100%);
+color: #000;
+height: 100%;
+width: 100%;
+margin: 0;
+}
+
+
+/*komórka tabeli - listy*/
+table > tbody > tr > td
+{
+background-size: cover;
+padding: 0;
+vertical-align: top;
+}
+
+/*wiersz tabeli - listy*/
+table > tbody > tr
+{
+height: 850px;
+}
+
+/*nagłowek-tytuł listy*/
+.nag
+{
+background-color: #BE8700;
+color: white;
+font-family:basic;
+font-size: 40px;
+margin-bottom: 5px;
+margin-left:3px;
+margin-right:6px;
+}
